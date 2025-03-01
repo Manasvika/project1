@@ -5,11 +5,12 @@ import viewimg from "../assets/viewimg.jpg";
 import logo from "../assets/logo.png";
 import emaillogo from "../assets/emaillogo.png";
 import phonelogo from "../assets/phonelogo.png";
+import GPSComponent from "../components/GPSLocation";
 
 const Home = () => {
   return (
     <BackgroundImage>
-      <MainImage src={viewimg} alt="main image" />
+      {/* <MainImage src={viewimg} alt="main image" />
       <Contant>
         <h1>*Welcome to Mittu Reddy's Portfolio</h1>
         <para> Hi! Welcome to the mittureddy's profile..</para>
@@ -25,7 +26,8 @@ const Home = () => {
       <Emailwrapper>
         <Emaillogoo src={emaillogo} alt="emaillogo" />
         <EmailText>mittureddy@gmail.com</EmailText>
-      </Emailwrapper>
+      </Emailwrapper> */}
+      <GPSComponent />
     </BackgroundImage>
   );
 };
