@@ -4,7 +4,7 @@ const GoogleMapsEmbed = ({ latitude, longitude }) => {
     <iframe
       title="Google Maps"
       width="100%"
-      height="400px"
+      height="90%"
       src={mapUrl}
       style={{ border: 0 }}
       allowFullScreen

@@ -35,13 +35,15 @@ const Home = () => {
 export default Home;
 
 const BackgroundImage = styled.div`
-  background-image: url(${background});
-  background-size: cover;
-  background-position: center;
+  // background-image: url(${background});
+  // background-size: cover;
+  // background-position: center;
+  background: #f5f5f5;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 1rem;
 `;
 
 const MainImage = styled.img`
